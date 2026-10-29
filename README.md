@@ -1,5 +1,7 @@
 # NIS2-Audit-Linux
-A modest script for a non-exhaustive audit of a Linux system, in accordance with the European NIS2 directive and Italian ACN guidelines.
+
+Uno script senza grosse pretese, per un auditing non esaustivo di un sistema Liunx, ai sensi della normativa europea NIS2 e linee guida ACN
+(A modest script for a non-exhaustive audit of a Linux system, in accordance with the European NIS2 directive and Italian ACN guidelines.)
 
 nis2_collect.sh v1.2 - Raccolta evidenze di sicurezza per analisi NIS2 / ACN
 
