@@ -1,9 +1,8 @@
 # NIS2-Audit-Linux
 A modest script for a non-exhaustive audit of a Linux system, in accordance with the European NIS2 directive and Italian ACN guidelines.
 
-=============================================================================
 nis2_collect.sh v1.2 - Raccolta evidenze di sicurezza per analisi NIS2 / ACN
------------------------------------------------------------------------------
+
 Vibe Coded by Samuel Zallocco With Claude, Revised by Gemini and Copilot
 
 - SOLA LETTURA: non modifica nulla sul sistema (scrive solo nella dir di output)
@@ -17,6 +16,7 @@ Vibe Coded by Samuel Zallocco With Claude, Revised by Gemini and Copilot
 
 Uso:   sudo bash nis2_collect.sh [-o /percorso/NIS2_Audit_Report] [-w "/var/www /srv/www"] [-D] [-R] [-T] [-u URL]
        -D no DB | -R refresh metadati dnf/yum | -T salta albero web root | -u URL base per i link dell'albero
+
 Esempio: sudo bash nis2_collect.sh -o /home/zallocco/NIS2_Audit_Report -w "/var/www"
+
 Esito: directory nis2_audit_<versione>_<host>_<data>/ + archivio .tar.gz con SHA256
-=============================================================================
