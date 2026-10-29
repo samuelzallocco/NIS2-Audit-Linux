@@ -10,7 +10,7 @@ Vibe Coded by Samuel Zallocco With Claude, Revised by Gemini and Copilot
 - SOLA LETTURA: non modifica nulla sul sistema (scrive solo nella dir di output)
 - Non raccoglie hash di password, chiavi private, contenuto dei file applicativi
 - Le righe di configurazione che contengono "password/secret/token/key" vengono
-  oscurate (<REDACTED>) prima di essere salvate
+  oscurate (&lt;REDACTED&gt;) prima di essere salvate
 - Compatibile con Debian/Ubuntu, RHEL/Rocky/Alma/CentOS/Fedora, SUSE
 - Web server analizzati: Apache, Nginx, Lighttpd, Tomcat, Node.js (+ PHP-FPM / SimpleSAMLphp)
 - Ultimo step: albero HTML navigabile delle web root (cartella albero_web/)
@@ -21,4 +21,4 @@ Uso:   sudo bash nis2_collect.sh [-o /percorso/NIS2_Audit_Report] [-w "/var/www 
 
 Esempio: sudo bash nis2_collect.sh -o /home/zallocco/NIS2_Audit_Report -w "/var/www"
 
-Esito: directory nis2_audit_<versione>_<host>_<data>/ + archivio .tar.gz con SHA256
+Esito: directory nis2_audit_&lt;versione&gt;_&lt;host&gt;_&lt;data&gt;/ + archivio .tar.gz con SHA256
